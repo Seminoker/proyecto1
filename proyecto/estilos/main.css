@@ -1,0 +1,87 @@
+/*
+================================
+Colores
+================================
+
+*{
+ semiblue: #252e5c;
+}
+
+=================================
+Registro
+=================================
+*/
+.titulo {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-decoration: underline;
+  font-weight: 900;
+  color: #252e5c;
+}
+
+.formulario {
+  border: 1px solid rgba(46, 63, 128, 1);
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+  width: 45%;
+  padding: 5px;
+  padding-bottom: 0px;
+  background-color: #252e5c;
+  color: white;
+  text-align: left;
+  min-width: 400px;
+}
+
+.form-group {
+  padding: 10px;
+  clear: both;
+}
+.form-group label {
+  float: left;
+  width: 40%;
+}
+.form-group input {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+.form-group select {
+  float: right;
+}
+
+.submit-btn {
+  background-color: white;
+  color: black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  float: right;
+}
+.submit-btn:hover {
+  background-color: black;
+  color: white;
+} 
+.footer {
+  position: relative;
+  text-align: left;
+  color: darkgrey;
+  padding-left: 10px;
+}
+/*
+===============================
+Estilos
+===============================
+*/
+html {
+  font: italic bold 14px/22px "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+body {
+  background-color: #93e2ff;
+  color: darkgrey;
+}
+
